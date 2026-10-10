@@ -4,7 +4,7 @@ import javax.swing.*;
 
 public class AppSkeleton extends JFrame {
 
-    //! Theme colors
+    //! theme colors
     private final Color sidebarColor = new Color(24, 32, 49);
     private final Color accentColor = new Color(76, 110, 245);
     private final Color backgroundColor = new Color(245, 247, 252);
@@ -25,7 +25,6 @@ public class AppSkeleton extends JFrame {
         setSize(1150, 740);
         setMinimumSize(new Dimension(950, 620));
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setLocationRelativeTo(null);
         setLayout(new BorderLayout());
 
         createSidebar();
